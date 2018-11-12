@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/*@import url(font-awesome.min.css);*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 /*
@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Sawarabi Mincho";/*"Source Sans Pro",Helvetica,sans-serif*/
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -249,15 +249,15 @@ input, select, textarea {
 
 	code {
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: "Courier New","Sawarabi Mincho", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.325rem;
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		/*-webkit-overflow-scrolling: touch;*/
+		font-family: "Courier New", "Sawarabi Mincho",monospace;
 		font-size: 0.9em;
 		margin: 0 0 2rem 0;
 	}
@@ -2544,14 +2544,14 @@ input, select, textarea {
 	}
 
 /* Icon */
-
+	
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
 		text-align: center;
 	}
-
+		/*
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -2560,7 +2560,7 @@ input, select, textarea {
 			font-weight: normal;
 			text-transform: none !important;
 		}
-
+*/
 		.icon > .label {
 			display: none;
 		}
@@ -2582,7 +2582,7 @@ input, select, textarea {
 				font-size: 1.25rem;
 			}
 
-	a.icon.style2:before {
+	i.icon.style2:before {
 		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2593,12 +2593,12 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 	}
 
-	a.icon.style2:hover:before {
+	i.icon.style2:hover:before {
 		box-shadow: inset 0 0 0 1px #47D3E5;
 		color: #47D3E5;
 	}
 
-	a.icon.style2:active:before {
+	i.icon.style2:active:before {
 		background-color: rgba(71, 211, 229, 0.1);
 		box-shadow: inset 0 0 0 1px #47D3E5;
 		color: #47D3E5;
